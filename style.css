@@ -2,9 +2,9 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-.top-section{
-    margin-top: 0%;
-    padding-left: 10%;
+.sec1{
+    margin: 0 auto;
+    padding-left: 5%;
     display: flex;
 }
 
@@ -15,16 +15,16 @@ h1{
     color: orange;
 }
 
-.child-top{
+.sec1-half{
    
     width: 50%;
     margin-top: 5%;
     
 } 
-.child-top-img img{
-    width: 30%;
+.sec1-half img{
+    width: 50%;
     padding-left: 15%;
-    margin-top: 0;
+    
 }
 
 .explore-btn{
@@ -39,4 +39,84 @@ h1{
     border-left: 2.5px solid red;
     padding-left: 4px;
 }
+
+.center-mission{
+    text-align: center;
+} 
+.center-mission span{
+    color: orange;
+}
+.second-section{
+    margin: 0 auto;
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mission-box1{
+    width: 330px;
+    height: 280px;
+    border: none;
+    background-color: rgba(255, 166, 0, 0.5);
+    border-radius: 20px;
+    text-align: left;
+    padding: 40px 20px;
+}
+.mission-box2{
+    width: 350px;
+    height: 280px;
+    border: none;
+    background-color: rgba(175, 238, 238, 0.575);
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+.mission-box3{
+    width: 350px;
+    height: 280px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+.mission-img img{
+    width: 40%;
     
+}
+.vision-img img{
+    width: 40%;
+}
+.goal-img img{
+    width: 40%;
+}
+
+.sec3{
+    display: flex;
+    padding-top: 5%;
+    padding-right: 15%;
+   
+}
+.sec3-half{
+    width: 50%;
+    padding-top: 5%;
+}
+.sec3 img{
+    width: 65%;
+    padding-left: 10%;
+}
+.docu-btn{
+    color: white;
+    border: none;
+    background-color: rgb(233, 115, 115) ;
+    border-radius: 5px;
+    padding: 2% 4%;
+}
+.sec4{
+    display: flex;
+    padding-top: 5%;
+}
+.sec4-half{
+    width: 50%;
+    padding-left: 5%;
+}
+.sec4-half img{
+    width: 60%;
+}
