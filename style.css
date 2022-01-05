@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.top-section{
+    margin-top: 0%;
+    padding-left: 10%;
+    display: flex;
+}
+
+h1{
+    font-size: 30px;
+}
+.top-text-color{
+    color: orange;
+}
+
+.child-top{
+   
+    width: 50%;
+    margin-top: 5%;
+    
+} 
+.child-top-img img{
+    width: 30%;
+    padding-left: 15%;
+    margin-top: 0;
+}
+
+.explore-btn{
+    color: white;
+    border: none;
+    background-color: rgb(233, 115, 115) ;
+    border-radius: 5px;
+    padding: 2% 4%;
+}
+    
+.border-text{
+    border-left: 2.5px solid red;
+    padding-left: 4px;
+}
+    
