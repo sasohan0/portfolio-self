@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -112,6 +113,7 @@ h1{
 .sec4{
     display: flex;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 .sec4-half{
     width: 50%;
@@ -119,4 +121,49 @@ h1{
 }
 .sec4-half img{
     width: 60%;
+}
+h1 i{
+    color: orange;
+    
+}
+.bottom-text{
+    text-align: center;
+}
+h1 u{
+    color: orange;
+}
+p i{
+    color: orange;
+}
+.sec5{
+    display: flex;
+    padding-bottom: 10%;
+}
+.sec5-half{
+    width: 50%;
+}
+.sec5-half img{
+    width: 55%;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.sec5-half div{
+    padding-top: 5%;
+    width: 60%;
+}
+.idea{
+    font-size: 50px;
+}
+footer{
+    padding: 20px 10px;
+  text-align: center;
+  color: white;
+  background-color: black; 
+}
+
+footer h1{
+    font-family: 'Shadows Into Light', cursive;
+}
+footer h1 span{
+    color: orange;
 }
