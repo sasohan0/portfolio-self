@@ -49,14 +49,17 @@ h1{
     color: orange;
 }
 .second-section{
+    width: 1300px;
     margin: 0 auto;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 75px;
+    padding-right: 75px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
    
 }
+
+
 .mission-box1{
     width: 330px;
     height: 280px;
