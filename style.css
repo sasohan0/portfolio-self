@@ -1,6 +1,5 @@
-
-body{ background-color:rgba(255, 166, 0, 0.185);
-    margin: 0%;
+body{ 
+    margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
 .section-top{
@@ -94,16 +93,28 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
     display: flex;
     padding-top: 5%;
     padding-right: 15%;
-    padding-left: 8%;
+    padding-left: ;
+    margin: 0 auto;
+    
    
 }
 .section-middle-half{
+    
     width: 50%;
     padding-top: 5%;
+    padding-left: 10%;
 }
 .section-middle-half img{
+    
     width: 65%;
     padding-left: 10%;
+}
+#section-middle-bg{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 70px;
 }
 .section-middle-docu-bttn{
     color: white;
@@ -118,7 +129,7 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 8%;
-
+    
 }
 .section-lower-docu-bttn{
     color: white;
@@ -131,14 +142,24 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
 }
 .section-lower-half{
     width: 50%;
+    height: 310px;
     padding-left: 5%;
 }
 .section-lower-half img{
     width: 60%;
 }
+#section-lower-bg{
+    background-image: url(images/shapes/shape-1.png);
+     background-size: 40%;
+    background-repeat: no-repeat;
+
+    background-position-x: 200px ;
+    background-position-y: 120px ;
+}
 
 .bottom-text{
     text-align: center;
+    
 }
 .bottom-text i{
     color: orange;
@@ -158,12 +179,22 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
 }
 .bottom-half{
     width: 50%;
-}
-.bottom-half img{
-    width: 55%;
-    padding-left: 20%;
     padding-top: 5%;
 }
+.bottom-half img{
+    width: 35%;
+    padding-left: 35%;
+    padding-top: 5%;
+}
+#bottom-bg{
+    background-image: url(images/shapes/shape-3.png), url(images/shapes/shape-3.png), url(images/shapes/shape-3.png), url(images/shapes/shape-3.png) ;
+    background-repeat: no-repeat, no-repeat, no-repeat ;
+    background-size: 20%, 12%, 13%;
+    background-position-x: 31.8%, 72%, 72%;
+    background-position-y: 15%, 87%;
+    
+}
+
 .bottom-half div{
     padding-top: 5%;
     width: 60%;
