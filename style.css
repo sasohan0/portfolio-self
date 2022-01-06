@@ -1,11 +1,12 @@
 
-body{ background-color: rgba(128, 128, 128, 0.288);
-    margin: 0;
+body{ background-color:rgba(255, 166, 0, 0.185);
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
 .sec1{
     margin: 0 auto;
-    padding-left: 5%;
+    padding-left: 13%;
+    padding-right: 5%;
     display: flex;
 }
 
@@ -49,9 +50,12 @@ h1{
 }
 .second-section{
     margin: 0 auto;
-    padding-left: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
 }
 .mission-box1{
     width: 330px;
@@ -61,22 +65,27 @@ h1{
     border-radius: 20px;
     text-align: left;
     padding: 40px 20px;
+    box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
 }
 .mission-box2{
     width: 350px;
     height: 280px;
-    border: none;
+    border: none ;
+     text-align: left;
     background-color: rgba(175, 238, 238, 0.575);
     border-radius: 20px;
     padding: 40px 20px;
+    box-shadow: 10px 20px rgba(69, 136, 136, 0.37);
 }
 .mission-box3{
     width: 350px;
     height: 280px;
     border: none;
+     text-align: left;
     background-color: rgba(255, 0, 0, 0.5);
     border-radius: 20px;
     padding: 40px 20px;
+    box-shadow: 10px 20px rgba(145, 12, 12, 0.39);
 }
 .mission-img img{
     width: 40%;
@@ -93,6 +102,7 @@ h1{
     display: flex;
     padding-top: 5%;
     padding-right: 15%;
+    padding-left: 8%;
    
 }
 .sec3-half{
@@ -114,6 +124,8 @@ h1{
     display: flex;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 8%;
+
 }
 .sec4-half{
     width: 50%;
@@ -158,11 +170,12 @@ footer{
     padding: 20px 10px;
   text-align: center;
   color: white;
-  background-color: black; 
+  background-color: rgb(0, 0, 0); 
 }
 
 footer h1{
     font-family: 'Shadows Into Light', cursive;
+    height: 30px;
 }
 footer h1 span{
     color: orange;
