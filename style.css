@@ -30,7 +30,7 @@ body{
     color: white;
     text-decoration: none;
     border: none;
-    background-color: rgb(233, 115, 115) ;
+    background-color: rgba(43, 145, 60, 0.904) ;
     border-radius: 5px;
     padding: 2% 4%;
 }
@@ -120,7 +120,7 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
     color: white;
     text-decoration: none;
     border: none;
-    background-color: rgb(233, 115, 115) ;
+    background-color: rgb(13, 146, 20) ;
     border-radius: 5px;
     padding: 2% 4%;
 }
@@ -135,7 +135,7 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
     color: white;
     text-decoration: none;
     border: none;
-    background-color: rgb(233, 115, 115) ;
+    background-color: rgba(8, 104, 8, 0.795) ;
     border-radius: 5px;
     padding: 2% 4%;
 
