@@ -3,172 +3,180 @@ body{ background-color:rgba(255, 166, 0, 0.185);
     margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
-.sec1{
+.section-top{
     margin: 0 auto;
     padding-left: 13%;
     padding-right: 5%;
     display: flex;
 }
-
-h1{
-    font-size: 30px;
-}
-.top-text-color{
-    color: orange;
-}
-
-.sec1-half{
+.section-top-half{
    
     width: 50%;
     margin-top: 5%;
     
+}
+.section-top-border-text{
+    border-left: 2.5px solid red;
+    padding-left: 4px;
 } 
-.sec1-half img{
-    width: 50%;
-    padding-left: 15%;
-    
+.section-top-border-text h1{
+    font-size: 30px;
+}
+.section-top-text-color{
+    color: orange;
 }
 
-.explore-btn{
+.section-top-explore-bttn{
+    
     color: white;
+    text-decoration: none;
     border: none;
     background-color: rgb(233, 115, 115) ;
     border-radius: 5px;
     padding: 2% 4%;
 }
     
-.border-text{
-    border-left: 2.5px solid red;
-    padding-left: 4px;
+
+.section-top-half img{
+    width: 50%;
+    padding-left: 15%;
+    
 }
 
-.center-mission{
+
+
+.my-mission{
     text-align: center;
 } 
-.center-mission span{
+.my-mission span{
     color: orange;
 }
-.second-section{
-    width: 1300px;
-    margin: 0 auto;
-    padding-left: 75px;
-    padding-right: 75px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-   
+.section-below-top{
+   display: flex;
+   justify-content: space-around;
+   padding-left: 5%;
+   padding-right: 5%;
 }
 
 
-.mission-box1{
-    width: 330px;
-    height: 280px;
+.section-below-top-box{
+    width: 25%;
     border: none;
-    background-color: rgba(255, 166, 0, 0.5);
     border-radius: 20px;
     text-align: left;
     padding: 40px 20px;
-    box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
+    
 }
-.mission-box2{
-    width: 350px;
-    height: 280px;
-    border: none ;
-     text-align: left;
-    background-color: rgba(175, 238, 238, 0.575);
-    border-radius: 20px;
-    padding: 40px 20px;
-    box-shadow: 10px 20px rgba(69, 136, 136, 0.37);
-}
-.mission-box3{
-    width: 350px;
-    height: 280px;
-    border: none;
-     text-align: left;
-    background-color: rgba(255, 0, 0, 0.5);
-    border-radius: 20px;
-    padding: 40px 20px;
-    box-shadow: 10px 20px rgba(145, 12, 12, 0.39);
+#mission-box{
+background-color: rgba(255, 166, 0, 0.5);
+box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
 }
 .mission-img img{
     width: 40%;
-    
+    }
+
+#vision-box{
+        background-color: rgba(175, 238, 238, 0.575);
+        box-shadow: 10px 20px rgba(69, 136, 136, 0.37);
 }
 .vision-img img{
     width: 40%;
+}
+#goal-box{
+    background-color: rgba(255, 0, 0, 0.5);
+    box-shadow: 10px 20px rgba(145, 12, 12, 0.39);
 }
 .goal-img img{
     width: 40%;
 }
 
-.sec3{
+.section-middle{
     display: flex;
     padding-top: 5%;
     padding-right: 15%;
     padding-left: 8%;
    
 }
-.sec3-half{
+.section-middle-half{
     width: 50%;
     padding-top: 5%;
 }
-.sec3 img{
+.section-middle-half img{
     width: 65%;
     padding-left: 10%;
 }
-.docu-btn{
+.section-middle-docu-bttn{
     color: white;
+    text-decoration: none;
     border: none;
     background-color: rgb(233, 115, 115) ;
     border-radius: 5px;
     padding: 2% 4%;
 }
-.sec4{
+.section-lower{
     display: flex;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 8%;
 
 }
-.sec4-half{
+.section-lower-docu-bttn{
+    color: white;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(233, 115, 115) ;
+    border-radius: 5px;
+    padding: 2% 4%;
+
+}
+.section-lower-half{
     width: 50%;
     padding-left: 5%;
 }
-.sec4-half img{
+.section-lower-half img{
     width: 60%;
 }
-h1 i{
-    color: orange;
-    
-}
+
 .bottom-text{
     text-align: center;
 }
-h1 u{
+.bottom-text i{
+    color: orange;
+    
+}
+
+.bottom-text-head u{
+    color: orange;
+     font-size: 50px;
+}
+.bottom-text-paragraph i{
     color: orange;
 }
-p i{
-    color: orange;
-}
-.sec5{
+.bottom{
     display: flex;
     padding-bottom: 10%;
 }
-.sec5-half{
+.bottom-half{
     width: 50%;
 }
-.sec5-half img{
+.bottom-half img{
     width: 55%;
     padding-left: 20%;
     padding-top: 5%;
 }
-.sec5-half div{
+.bottom-half div{
     padding-top: 5%;
     width: 60%;
 }
-.idea{
-    font-size: 50px;
+.app-bttn{
+    color: white;
+    text-decoration: none;
+    border: none;
+    background-color: rgba(18, 180, 18, 0.849) ;
+    border-radius: 5px;
+    padding: 2% 4%;
 }
+
 footer{
     padding: 20px 10px;
   text-align: center;
