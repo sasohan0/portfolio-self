@@ -1,5 +1,5 @@
 body{ 
-    margin: 0 auto;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 .section-top{
@@ -94,11 +94,12 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
     padding-top: 5%;
     padding-right: 15%;
     padding-left: ;
-    margin: 0 auto;
+    margin: 0 ;
     
    
 }
 .section-middle-half{
+    
     
     width: 50%;
     padding-top: 5%;
@@ -114,7 +115,7 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
     background-size: 40%;
     background-repeat: no-repeat;
     background-position-x: 50px;
-    background-position-y: 70px;
+    background-position-y: 140px;
 }
 .section-middle-docu-bttn{
     color: white;
@@ -151,10 +152,11 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
 #section-lower-bg{
     background-image: url(images/shapes/shape-1.png);
      background-size: 40%;
+     height: 100%;
     background-repeat: no-repeat;
 
-    background-position-x: 200px ;
-    background-position-y: 120px ;
+    background-position-x: 350px  ;
+    background-position-y: 70px ;
 }
 
 .bottom-text{
@@ -176,6 +178,7 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
 .bottom{
     display: flex;
     padding-bottom: 10%;
+    padding-top: 5%;
 }
 .bottom-half{
     width: 50%;
@@ -187,10 +190,10 @@ box-shadow: 10px 20px rgba(196, 136, 24, 0.527);
     padding-top: 5%;
 }
 #bottom-bg{
-    background-image: url(images/shapes/shape-3.png), url(images/shapes/shape-3.png), url(images/shapes/shape-3.png), url(images/shapes/shape-3.png) ;
+    background-image: url(images/shapes/shape-3.png), url(images/shapes/shape-3.png);
     background-repeat: no-repeat, no-repeat, no-repeat ;
-    background-size: 20%, 12%, 13%;
-    background-position-x: 31.8%, 72%, 72%;
+    background-size: 20%, 13%;
+    background-position-x: 32%, 72%;
     background-position-y: 15%, 87%;
     
 }
